@@ -2,7 +2,7 @@
 
 int main(){
     char str;
-    scanf("%s", &s);
-    printf("You entered: %s\n", s);
+    scanf("%s", str);
+    printf("You entered: %s\n", str);
     return 0;
 }
