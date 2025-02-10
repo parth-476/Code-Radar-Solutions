@@ -1,16 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    float num1, num2, product;
+    char str1[50], str2[50];
 
-    // Taking input of two floating-point numbers
-    scanf("%f %f", &num1, &num2);
+    // Taking input of two space-separated strings
+    scanf("%s %s", str1, str2);
 
-    // Calculating the product
-    product = num1 * num2;
-
-    // Printing the product
-    printf("Product: %.2f\n", product);
+    // Printing the entered strings
+    printf("You entered: %s and %s\n", str1, str2);
 
     return 0;
 }
