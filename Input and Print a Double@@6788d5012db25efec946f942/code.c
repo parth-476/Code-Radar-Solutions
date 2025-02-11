@@ -1,5 +1,9 @@
-def print_double():
-    number = float(input("Enter a double: "))
-    print(f"You entered: {number}")
+#include <stdio.h>
 
-print_double()
+int main() {
+    double number;
+    printf("Enter a double: ");
+    scanf("%lf", &number);
+    printf("You entered: %lf\n", number);
+    return 0;
+}
