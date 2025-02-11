@@ -1,16 +1,5 @@
-#include <stdio.h>
+def print_double():
+    number = float(input("Enter a double: "))
+    print(f"You entered: {number}")
 
-int main() {
-    float num1, num2, product;
-
-    // Taking input of two floating-point numbers
-    scanf("%f %f", &num1, &num2);
-
-    // Calculating the product
-    product = num1 * num2;
-
-    // Printing the product
-    printf("Product: %.2f\n", product);
-
-    return 0;
-}
+print_double()
