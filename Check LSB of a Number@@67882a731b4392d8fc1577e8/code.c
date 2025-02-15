@@ -2,7 +2,6 @@
 
 int main() {
     int num;
-    printf("Enter an integer: ");
     scanf("%d", &num);
 
     if (num & 1) {
