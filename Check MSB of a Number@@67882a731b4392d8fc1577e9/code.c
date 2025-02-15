@@ -2,7 +2,7 @@
 
 int main() {
     unsigned int num;
-    printf("Enter a 32-bit unsigned integer: ");
+
     scanf("%u", &num);
 
     // Check if the MSB is set
