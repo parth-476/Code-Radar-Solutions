@@ -12,11 +12,13 @@ int main() {
 
     scanf("%d", &number);
 
+
     scanf("%d", &bitPosition);
 
     // Getting and printing the value of the nth bit
     int bitValue = getNthBit(number, bitPosition);
-    
+    printf("The value of the %dth bit is: %d\n", bitPosition, bitValue);
 
     return 0;
 }
+
