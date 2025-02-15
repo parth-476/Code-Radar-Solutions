@@ -9,10 +9,9 @@ int main() {
     int number, bitPosition;
 
     // Taking input from the user
-    printf("Enter the number: ");
+
     scanf("%d", &number);
 
-    printf("Enter the bit position (0-based): ");
     scanf("%d", &bitPosition);
 
     // Getting and printing the value of the nth bit
