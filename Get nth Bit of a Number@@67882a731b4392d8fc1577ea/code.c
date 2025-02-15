@@ -16,7 +16,7 @@ int main() {
 
     // Getting and printing the value of the nth bit
     int bitValue = getNthBit(number, bitPosition);
-    printf("The value of the %dth bit is: %d\n", bitPosition, bitValue);
+    printf(bitPosition, bitValue);
 
     return 0;
 }
