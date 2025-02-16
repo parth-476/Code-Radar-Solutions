@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-int main() {
+int main(){
   int x;
   scanf("%d", &x);
   if(X%5==0 && x%11==0){
