@@ -8,4 +8,5 @@ int main(){
     else if{
         printf("Not Eligible");
     }
+    return 0;
 }
